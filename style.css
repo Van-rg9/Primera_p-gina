@@ -1,0 +1,55 @@
+/*selector universal */
+*{font-family: cursive}
+
+
+/*selector de etiqueta: */
+
+body{
+    background-color: rgb(202, 222, 245);
+    padding: 1em;
+}
+p {
+    color: rgb(1, 1, 31);
+    text-align: center;
+}
+
+/*selector de clase */
+/* */
+
+.text-centrado {
+    text-align: center;
+}
+
+/* Selector por ID */
+/*nos permite seleccionar un elemento unico del sitio*/
+
+
+/*selector combinado*/
+/*aqui se puede conbinar mas de una opción para ir filtrando etiquetas*/
+#navegacion {
+    display: inline;
+}
+#navegacion li {
+    display: inline;
+}
+.titulo{
+    text-align: center;
+}
+
+.proyecto{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#proyecto-1 {
+    background-image: url(pyrocephalus-2.jpg);
+    
+}
+#proyecto-2{
+    background-image: url(Tijereta.jpg);
+    
+}
+#proyecto-3 {
+    background-image: url(cenzontle\ 2.jpeg);
+}
